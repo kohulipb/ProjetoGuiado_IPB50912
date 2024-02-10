@@ -1,0 +1,154 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Cameras",
+            "id": "b3c46adb-7fce-46cf-8c05-2db56c340aa9",
+            "actions": [
+                {
+                    "name": "changeToWide",
+                    "type": "Button",
+                    "id": "efb8bd3f-4784-4dc5-8e4d-c28f7d847628",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "changeToMid",
+                    "type": "Button",
+                    "id": "6bbd396b-79ad-4133-80b2-cc36b8c8edb6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "changeToClose",
+                    "type": "Button",
+                    "id": "ed2fbc94-0023-4672-aa5a-fa286cea6f9c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "changeToOrtho",
+                    "type": "Button",
+                    "id": "d896e720-ea64-4e50-a497-c58c4317a717",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "changeToDrone",
+                    "type": "Button",
+                    "id": "729597ea-24a1-45fb-82ae-ebb39aa6e9d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b518028a-5a94-4336-8e9b-5fb9b4c1821a",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "changeToWide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e9fa9e9-f00a-4835-a4e8-0c0ddd95c507",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "changeToMid",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be008efb-a0b0-4f9a-9c6c-01f3853edd51",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "changeToClose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "105226e8-88d5-4d08-afa3-ad30b7a3dd5b",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "changeToOrtho",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22e72cbd-e3a6-48fd-bb78-1ac543522ec2",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "changeToDrone",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Drone",
+            "id": "92903d44-5471-4f3c-92a5-477a70e5ed18",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "8480c539-bfa3-4291-b156-e2aed8733b4b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a358dc44-57f6-4d0e-a406-e584adf673f6",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
