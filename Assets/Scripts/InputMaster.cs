@@ -136,9 +136,72 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             ""id"": ""92903d44-5471-4f3c-92a5-477a70e5ed18"",
             ""actions"": [
                 {
-                    ""name"": ""New action"",
+                    ""name"": ""MoveLeft"",
                     ""type"": ""Button"",
                     ""id"": ""8480c539-bfa3-4291-b156-e2aed8733b4b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MoveRight"",
+                    ""type"": ""Button"",
+                    ""id"": ""cebbb0e9-6422-4956-ad0a-4f779f5820bd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MoveFwrd"",
+                    ""type"": ""Button"",
+                    ""id"": ""c7b98eb6-0390-4369-92af-32d6ec3d7a16"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MoveBack"",
+                    ""type"": ""Button"",
+                    ""id"": ""bb0387ab-0461-43b5-a481-fe43a1a5dcaf"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ThrottleUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""47a57fd1-8557-4c4c-94d6-0e48ffdf670d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ThrottleDown"",
+                    ""type"": ""Button"",
+                    ""id"": ""790aa368-611c-43af-a975-a2ec4c4ecb4d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""YawLeft"",
+                    ""type"": ""Button"",
+                    ""id"": ""accdcf7a-820d-456b-ab69-2e806cb3518c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""YawRight"",
+                    ""type"": ""Button"",
+                    ""id"": ""18b62036-c7b1-4042-8605-c54414ed2cb0"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -149,11 +212,88 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a358dc44-57f6-4d0e-a406-e584adf673f6"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""MoveLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2ef009cf-d19b-48d1-b41b-539c7316e1f4"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c481fc97-bd08-44da-8c8d-a3431f3f4023"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveFwrd"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""df534b76-8ce0-4848-b578-62a92b890884"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveBack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""392834a7-57fd-418f-9826-baa99a6a87fa"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ThrottleUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d625680e-8792-4d55-ac55-d9723b4fbc58"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ThrottleDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d72d922f-a17a-4e96-9098-76cd335ed1a8"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""YawLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""850910ba-bc9d-449e-9996-eef60cd1ec45"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""YawRight"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -183,7 +323,14 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         m_Cameras_changeToDrone = m_Cameras.FindAction("changeToDrone", throwIfNotFound: true);
         // Drone
         m_Drone = asset.FindActionMap("Drone", throwIfNotFound: true);
-        m_Drone_Newaction = m_Drone.FindAction("New action", throwIfNotFound: true);
+        m_Drone_MoveLeft = m_Drone.FindAction("MoveLeft", throwIfNotFound: true);
+        m_Drone_MoveRight = m_Drone.FindAction("MoveRight", throwIfNotFound: true);
+        m_Drone_MoveFwrd = m_Drone.FindAction("MoveFwrd", throwIfNotFound: true);
+        m_Drone_MoveBack = m_Drone.FindAction("MoveBack", throwIfNotFound: true);
+        m_Drone_ThrottleUp = m_Drone.FindAction("ThrottleUp", throwIfNotFound: true);
+        m_Drone_ThrottleDown = m_Drone.FindAction("ThrottleDown", throwIfNotFound: true);
+        m_Drone_YawLeft = m_Drone.FindAction("YawLeft", throwIfNotFound: true);
+        m_Drone_YawRight = m_Drone.FindAction("YawRight", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -323,12 +470,26 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
     // Drone
     private readonly InputActionMap m_Drone;
     private List<IDroneActions> m_DroneActionsCallbackInterfaces = new List<IDroneActions>();
-    private readonly InputAction m_Drone_Newaction;
+    private readonly InputAction m_Drone_MoveLeft;
+    private readonly InputAction m_Drone_MoveRight;
+    private readonly InputAction m_Drone_MoveFwrd;
+    private readonly InputAction m_Drone_MoveBack;
+    private readonly InputAction m_Drone_ThrottleUp;
+    private readonly InputAction m_Drone_ThrottleDown;
+    private readonly InputAction m_Drone_YawLeft;
+    private readonly InputAction m_Drone_YawRight;
     public struct DroneActions
     {
         private @InputMaster m_Wrapper;
         public DroneActions(@InputMaster wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Drone_Newaction;
+        public InputAction @MoveLeft => m_Wrapper.m_Drone_MoveLeft;
+        public InputAction @MoveRight => m_Wrapper.m_Drone_MoveRight;
+        public InputAction @MoveFwrd => m_Wrapper.m_Drone_MoveFwrd;
+        public InputAction @MoveBack => m_Wrapper.m_Drone_MoveBack;
+        public InputAction @ThrottleUp => m_Wrapper.m_Drone_ThrottleUp;
+        public InputAction @ThrottleDown => m_Wrapper.m_Drone_ThrottleDown;
+        public InputAction @YawLeft => m_Wrapper.m_Drone_YawLeft;
+        public InputAction @YawRight => m_Wrapper.m_Drone_YawRight;
         public InputActionMap Get() { return m_Wrapper.m_Drone; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -338,16 +499,58 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_DroneActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_DroneActionsCallbackInterfaces.Add(instance);
-            @Newaction.started += instance.OnNewaction;
-            @Newaction.performed += instance.OnNewaction;
-            @Newaction.canceled += instance.OnNewaction;
+            @MoveLeft.started += instance.OnMoveLeft;
+            @MoveLeft.performed += instance.OnMoveLeft;
+            @MoveLeft.canceled += instance.OnMoveLeft;
+            @MoveRight.started += instance.OnMoveRight;
+            @MoveRight.performed += instance.OnMoveRight;
+            @MoveRight.canceled += instance.OnMoveRight;
+            @MoveFwrd.started += instance.OnMoveFwrd;
+            @MoveFwrd.performed += instance.OnMoveFwrd;
+            @MoveFwrd.canceled += instance.OnMoveFwrd;
+            @MoveBack.started += instance.OnMoveBack;
+            @MoveBack.performed += instance.OnMoveBack;
+            @MoveBack.canceled += instance.OnMoveBack;
+            @ThrottleUp.started += instance.OnThrottleUp;
+            @ThrottleUp.performed += instance.OnThrottleUp;
+            @ThrottleUp.canceled += instance.OnThrottleUp;
+            @ThrottleDown.started += instance.OnThrottleDown;
+            @ThrottleDown.performed += instance.OnThrottleDown;
+            @ThrottleDown.canceled += instance.OnThrottleDown;
+            @YawLeft.started += instance.OnYawLeft;
+            @YawLeft.performed += instance.OnYawLeft;
+            @YawLeft.canceled += instance.OnYawLeft;
+            @YawRight.started += instance.OnYawRight;
+            @YawRight.performed += instance.OnYawRight;
+            @YawRight.canceled += instance.OnYawRight;
         }
 
         private void UnregisterCallbacks(IDroneActions instance)
         {
-            @Newaction.started -= instance.OnNewaction;
-            @Newaction.performed -= instance.OnNewaction;
-            @Newaction.canceled -= instance.OnNewaction;
+            @MoveLeft.started -= instance.OnMoveLeft;
+            @MoveLeft.performed -= instance.OnMoveLeft;
+            @MoveLeft.canceled -= instance.OnMoveLeft;
+            @MoveRight.started -= instance.OnMoveRight;
+            @MoveRight.performed -= instance.OnMoveRight;
+            @MoveRight.canceled -= instance.OnMoveRight;
+            @MoveFwrd.started -= instance.OnMoveFwrd;
+            @MoveFwrd.performed -= instance.OnMoveFwrd;
+            @MoveFwrd.canceled -= instance.OnMoveFwrd;
+            @MoveBack.started -= instance.OnMoveBack;
+            @MoveBack.performed -= instance.OnMoveBack;
+            @MoveBack.canceled -= instance.OnMoveBack;
+            @ThrottleUp.started -= instance.OnThrottleUp;
+            @ThrottleUp.performed -= instance.OnThrottleUp;
+            @ThrottleUp.canceled -= instance.OnThrottleUp;
+            @ThrottleDown.started -= instance.OnThrottleDown;
+            @ThrottleDown.performed -= instance.OnThrottleDown;
+            @ThrottleDown.canceled -= instance.OnThrottleDown;
+            @YawLeft.started -= instance.OnYawLeft;
+            @YawLeft.performed -= instance.OnYawLeft;
+            @YawLeft.canceled -= instance.OnYawLeft;
+            @YawRight.started -= instance.OnYawRight;
+            @YawRight.performed -= instance.OnYawRight;
+            @YawRight.canceled -= instance.OnYawRight;
         }
 
         public void RemoveCallbacks(IDroneActions instance)
@@ -384,6 +587,13 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
     }
     public interface IDroneActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnMoveLeft(InputAction.CallbackContext context);
+        void OnMoveRight(InputAction.CallbackContext context);
+        void OnMoveFwrd(InputAction.CallbackContext context);
+        void OnMoveBack(InputAction.CallbackContext context);
+        void OnThrottleUp(InputAction.CallbackContext context);
+        void OnThrottleDown(InputAction.CallbackContext context);
+        void OnYawLeft(InputAction.CallbackContext context);
+        void OnYawRight(InputAction.CallbackContext context);
     }
 }
